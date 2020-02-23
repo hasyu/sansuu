@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>算数ドリル</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>算数<span class="sisya">　小数点第2位四捨五入</span></h1>
+  
+  <form id="idsuu" name="suu">
+    <input type="radio" name="enzannsi" value="+">+
+    <input type="radio" name="enzannsi" value="-">-
+    <input type="radio" name="enzannsi" value="*">*
+    <input type="radio" name="enzannsi" value="/">/
+    <input type="button" value="スタート" id="1kai" onclick="getRadioValue('enzannsi');">
+    <p id="siki1"></p>
+  </form>
+
+<p id="kotae"></p>
+<button id="kaitou">解答</button>
+<button id="riset">リセット</button>
+<script src="monndai.js"></script>
+</body>
+</html>
